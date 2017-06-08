@@ -48,7 +48,7 @@ let immutableButton: UIButton = {
 }()
 ```
 
-This produces the following error at the `addSubview()`` call:
+This produces the following error at the `addSubview()` call:
 
 `Value of type '(NSObject) -> () -> ViewController' has no member 'mutableClickableView'`
 
